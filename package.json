@@ -1,0 +1,30 @@
+{
+  "name": "vue3-rbac-admin",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --build && vite build",
+    "preview": "vite preview",
+    "typecheck": "vue-tsc --build"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.2",
+    "axios": "^1.8.4",
+    "element-plus": "^2.9.7",
+    "pinia": "^3.0.1",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "@vitejs/plugin-vue": "^5.2.3",
+    "@vue/tsconfig": "^0.9.1",
+    "sass": "^1.86.0",
+    "typescript": "^5.9.3",
+    "vite": "^6.2.0",
+    "vue-tsc": "^3.3.11"
+  }
+}

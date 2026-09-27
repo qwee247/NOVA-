@@ -1,0 +1,8 @@
+node_modules/
+dist/
+tmp/
+.pnpm-store/
+*.tsbuildinfo
+.DS_Store
+.vite-dev*.log
+.openai/
